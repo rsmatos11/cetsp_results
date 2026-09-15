@@ -1,0 +1,46 @@
+ Optimization engine: BCD
+ Initial solution (NN+BCD/CPLEX): 48.074659 t(s) = .001749
+ BCD calls: 21   BCD sweeps: 179
+ Visiting order (tour):
+ 21 13 9 8 16 5 19 4 12 14 18 17 11 15 20 10 3 1 7 2 6
+
+ [incumbent 1] cost = 46.767819   t = .002362 s   ILS iter = 0
+   BCD calls = 22   BCD sweeps = 184
+ [incumbent 2] cost = 45.735148   t = .002697 s   ILS iter = 0
+   BCD calls = 24   BCD sweeps = 188
+ [incumbent 3] cost = 44.986589   t = .010068 s   ILS iter = 0
+   BCD calls = 228   BCD sweeps = 1453
+ [incumbent 4] cost = 44.951601   t = .012902 s   ILS iter = 0
+   BCD calls = 290   BCD sweeps = 1902
+ [incumbent 5] cost = 44.951497   t = .015502 s   ILS iter = 0
+   BCD calls = 350   BCD sweeps = 2300
+ [incumbent 6] cost = 44.364373   t = .042177 s   ILS iter = 0
+   BCD calls = 1023   BCD sweeps = 6612
+ [incumbent 7] cost = 44.166600   t = .042477 s   ILS iter = 0
+   BCD calls = 1025   BCD sweeps = 6617
+
+ ======================= RESULT ======================
+ Instance             : inst-cetsp/CETSP-20-26.dat
+ Number of discs      : 20
+ Depot                : yes (node 21, radius 0, anchored at position 1)
+ Tour cost (ILS)      : 44.166600
+ CPU time (ILS)       : 138.635668 s
+ ILS iterations       : 2500
+ VND calls            : 2501
+ N. Searchs           : 69370
+ N. 2-Opt             : 7565
+ N. 3-Opt             : 2922
+ N. Swap              : 4385
+ N. Insertion         : 4376
+ N. String Reloc      : 3550
+ N. Double-Bridge     : 16019
+ N. Gutin             : 7663
+ N. Balas-Simonetti   : 22890
+ HC calls             : 476
+ BCD calls (total)    : 3476988
+ BCD sweeps (total)   : 22936706
+ CPLEX calls (total)  : 0
+ CPLEX iters (total)  : 0
+ Visiting order (tour):
+ 21 3 1 7 2 6 8 9 18 16 5 19 4 12 14 15 17 11 20 10 13
+ ======================================================
